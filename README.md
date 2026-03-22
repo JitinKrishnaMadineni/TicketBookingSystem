@@ -75,7 +75,7 @@ A scalable **Spring Boot microservices-based ticket booking system** built with:
 - Supports event-driven architecture  
 
 
-## 📡 Kafka Interaction Flow
+## Kafka Interaction Flow
 
 ```mermaid
 flowchart LR
