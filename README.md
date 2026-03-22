@@ -20,7 +20,8 @@ A scalable **Spring Boot microservices-based ticket booking system** built with:
 - Redis caching for high-performance inventory access  
 - Secure authentication via Keycloak  
 - Observability using Spring Boot Actuator  
-- Containerized setup using Docker  
+- Containerized setup using Docker
+- Used swagger-ui for API documentation
 
 ---
 
