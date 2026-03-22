@@ -9,6 +9,7 @@
   <img src="https://img.shields.io/badge/Keycloak-4D4D4D?style=for-the-badge&logo=keycloak&logoColor=white"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
   <img src="https://img.shields.io/badge/Actuator-6DB33F?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/API%20Gateway-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
 </p>
 
 ---
@@ -23,6 +24,8 @@ A scalable **Spring Boot microservices-based ticket booking system** built with:
 - Observability using Spring Boot Actuator  
 - Containerized setup using Docker
 - Used swagger-ui for API documentation
+
+- Added a Resilience4j-based circuit breaker at the API Gateway for booking requests, so when the Booking Service is unavailable the gateway trips the circuit and returns a graceful fallback response instead of failing hard.
 
 ---
 
